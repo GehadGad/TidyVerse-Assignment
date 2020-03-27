@@ -11,6 +11,8 @@ https://www.kaggle.com/ronitf/heart-disease-uci/data#heart.csv
 
 # Data Features:
 
+There are 14 columns in this dataset and 303 obsevations from individuals. 
+
 **age**:age in years.
 
 **sex**:(1 = male; 0 = female)
@@ -48,7 +50,6 @@ https://www.kaggle.com/ronitf/heart-disease-uci/data#heart.csv
 * 7 = reversable defect
 
 **target**: 1 or 0.
-
 
 # Target:
 
