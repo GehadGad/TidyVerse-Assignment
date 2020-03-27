@@ -8,7 +8,9 @@ Heart Disease dataset from Kaggle
 # Data Features:
 
 **age**:age in years.
+
 **sex**:(1 = male; 0 = female)
+
 **cpchest**: pain type. Type of chest-pain experienced by the individual:
 1 = typical angina
 2 = atypical angina
