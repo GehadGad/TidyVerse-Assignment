@@ -58,6 +58,10 @@ Heart disease diagnosis
 
 * Usage:
 
+The summarize function reduces a data frame to a summary of just one vector or value. Usualy, summarise function is used with groupby furstion. 
+
+Tibble is an alias for as_data_frame. "Enable preserving row names when coercing matrix and time-series-like objects with row names".
+
 * Demo:
 
 # Tidyverse Capability 2: ggplot
