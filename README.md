@@ -1,4 +1,4 @@
-# Tidyverse-Assignment:
+# Tidyverse Create Assignment:
 Create an Example Using one or more TidyVerse packages, and any dataset from fivethirtyeight.com or Kaggle, create a programming sample “vignette” that demonstrates how to use one or more of the capabilities of the selected TidyVerse package with your selected dataset.
 
 # Dataset chosen:
@@ -58,9 +58,9 @@ Heart disease diagnosis
 
 * Usage:
 
-The summarize function reduces a data frame to a summary of just one vector or value. Usualy, summarise is used with group_by funtion. 
+The summarise or summarize function reduces a data frame to a summary of just one vector or value. Usualy, summarise is used with group_by funtion. 
 
-Tibble or tbl_df is an alias for as_data_frame. 
+Tibbles or tbl_df is an alias for as_data_frame but it make things easier in R. Tibbles don’t change variable names or types and have a unique print() method which makes them easier to use with large datasets containing complex objects.
 
 * Demo:
 
