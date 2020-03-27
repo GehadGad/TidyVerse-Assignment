@@ -5,6 +5,10 @@ Create an Example Using one or more TidyVerse packages, and any dataset from fiv
 
 Heart Disease dataset from Kaggle
 
+# Data link from Kaggle:
+
+https://www.kaggle.com/ronitf/heart-disease-uci/data#heart.csv
+
 # Data Features:
 
 **age**:age in years.
@@ -50,12 +54,25 @@ Heart Disease dataset from Kaggle
 
 Heart disease diagnosis
 
-# Tidyverse Capability 1: 
-
-* dplyr (summarise, tibble)
+# Tidyverse Capability 1: dplyr (summarise, tibble)
 
 * Usage:
 
 * Demo:
 
 # Tidyverse Capability 2: ggplot
+
+* Usage:
+
+The ggplot2 package, created by Hadley Wickham, offers a powerful graphics language for creating elegant and complex plots. **ggplot2** allows you to create graphs that represent both univariate and multivariate numerical and categorical data in a straightforward manner.
+
+* Demo:
+
+ggplot(Heart,aes(x= Chest_Pain_Type,fill= Diagnosis_Heart_Disease)) +
+  theme_bw() +
+  geom_bar() +
+  facet_wrap(~Gender) +
+  labs(y ="count",
+       title = "Heart Disease distribution by Gender based on Chest_Pain_Type")
+
+
